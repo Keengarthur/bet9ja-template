@@ -1,0 +1,23 @@
+.container{
+    width:90vw;
+    height:30vh;
+    display:flex;
+    justify-content: space-between;
+    align-tracks: center;
+}
+
+div{
+    width:50%;
+    height:50%;
+    background:green;
+    border-radius: 50%;
+    text-align: center;
+}
+div:not(:last-child){
+    margin-right: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 13px;
+}
